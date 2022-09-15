@@ -1,0 +1,25 @@
+.nom {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.photo {
+    width: 150px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.containPres, .containPhoto {
+    min-width: 285px;
+}
+@media screen and (max-width: 496px) {
+    .nom {
+        font-size: 30px;
+    
+    }
+
+    .textPres {
+        font-size: 15px;
+    }
+}

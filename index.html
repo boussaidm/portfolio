@@ -5,30 +5,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/presentation.css">
+    <link rel="stylesheet" href="style/cursus.css">
     <title>Mon portfolio</title>
 </head>
 
 <body class="bg-primary">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav d-flex justify-content-end">
-                    <div class="container-fluid d-flex justify-content-end containButtonMenu">
-                        <img src="images/icones/menuBurger.png" alt="icone ouverture du menu" class="menuB">
-                    </div>
-                    <a class="nav-link linkMenuClose" href="#">A propos de moi</a>
-                    <a class="nav-link linkMenuClose" href="#">Mon parcours</a>
-                    <a class="nav-link linkMenuClose" href="#">Mes projets</a>
-                    <a class="nav-link linkMenuClose" href="#">Me joindre</a>
+    <div class=" containButtonMenu">
+        <img src="images/icones/menuBurger.png" alt="icone ouverture du menu" class="menuB">
+    </div>
+    <nav class="navbar linkMenuClose">
+        <div class=" containNav me-5">
+            <a class="nav-link " href="#">A propos de moi</a>
+            <a class="nav-link " href="#">Mon parcours</a>
+            <a class="nav-link " href="#">Mes projets</a>
+            <a class="nav-link " href="#">Me joindre</a>
 
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row p-5">
+            <div class="col-lg-7 col-md-12  p-5 d-flex justify-content-center flex-column order-2 containPres">
+
+                <h1 class="nom">BOUSSAID Meriem</h1>
+                <p class="textPres">Je suis une dévelloppeuse web junior,<br>
+                    j’étudie à Epitech en alternance,<br>
+                    je me spécialise dans l’IA.</p>
+            </div>
+            <div class="col-lg-5 col-md-12 p-5 d-flex justify-content-center order-1 containPhoto">
+                <div class="photo"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid bg-danger">
+        <h3 class="titreCat mb-5">Cursus scolaire</h3>
+        <div class="row d-flex justify-content-center ">
+            <div class="col-lg-6 pb-4 d-flex align-items-center flex-column">
+                <div class="card bg-dark cardCursus mb-2">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 date">Septembre 2021 - juin 2022</h6>
+                        <p class="card-text">Certificat développeur web et web mobile,<br>Bac +2<br> AFPA St jérôme</p>
+                    </div>
+                </div>
+                <div class="card bg-dark cardCursus mb-2">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 date">2019-2021</h6>
+                        <p class="card-text">Etude en faculté de médecine,<br> Marseille</p>
+                    </div>
+                </div>
+                <div class="card bg-dark cardCursus mb-2">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 date">2018-2019</h6>
+                        <p class="card-text">Baccalauréat scientifique,<br> Lycée Marcel Pagnol</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+    <div class="container-fluid bg-danger">
+        <h3 class="titreCat mb-5">Cursus Professionnel</h3>
+        <div class="row d-flex align-items-center flex-column">
+
+            <div class="card bg-dark cardCursus mb-5">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 date">Avril 2022 - mai 2022</h6>
+                    <p class="card-text">Stage développemnt web,<br> Thales DIS,<br> Gemenos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-danger">
+        <h3 class="titreCat mb-5">Mes projets</h3>
+        <div class="row d-flex flex-column align-items-center">
+            <div class="col-lg-6 bg-warning mb-4">
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Natus repellat
+                eligendi debitis laudantium voluptatibus fugit voluptatum incidunt harum rem, animi, nesciunt ad eum
+                expedita temporibus enim accusantium cum provident minima!
+                Repellendus eveniet tempore vero fuga aliquid dolor dolores modi, expedita ad, maiores, exercitationem
+                aperiam ut corrupti delectus. Ducimus nam qui iure voluptatum ipsum? Qui modi doloribus fuga accusantium
+                tempora quidem.</p> 
+                <div class="container-fluid d-flex justify-content-center bg-success mt-3">
+                    <h3>Nom du projet</h3>
+                </div>
+            </div>
+            <div class="col-lg-6 bg-warning mb-4"><p>ipsum dolor sit amet consectetur adipisicing elit. Natus repellat
+                eligendi debitis laudantium voluptatibus fugit voluptatum incidunt harum rem, animi, nesciunt ad eum
+                expedita temporibus enim accusantium cum provident minima!
+                Repellendus eveniet tempore vero fuga aliquid dolor dolores modi, expedita ad, maiores, exercitationem
+                aperiam ut corrupti delectus. Ducimus nam qui iure voluptatum ipsum? Qui modi doloribus fuga accusantium
+                tempora quidem.</p> 
+                <div class="container-fluid d-flex justify-content-center bg-success mt-3">
+                    <h3>Nom du projet</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
     <script src="app/navbar.js"></script>
 </body>
 
